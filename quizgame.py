@@ -2,6 +2,7 @@ print("Welcome to my Computer Quiz!")
 playing = input("Do you want to play?\n")
 
 if playing.lower() != "yes":
+    print("Okay we will play another time")
     quit()
 print("Okay! Lets Start Playing :) ")  
 
